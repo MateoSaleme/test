@@ -1,11 +1,98 @@
-#header {
-  background-color: yellow;
+body {
+  background-color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+#navbar-head {
+  background-color: #000;
+}
+#navbar-head div #texto-head {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 10px;
+}
+
+#menu li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#menu form > button {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .carousel-inner {
   max-height: 34rem;
 }
 
-body {
-  background-color: black;
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background-image: url(../img/wave3.svg);
+  background-size: cover;
+  position: absolute;
+}
+footer .container_footer {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 500px;
+}
+footer .box_footer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  text-align: center;
+}
+footer .box_footer h2 {
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+footer .box_footer a {
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+footer .box_footer a:hover {
+  opacity: 0.8;
+}
+footer .box_footer a .fa-brands {
+  font-size: 20px;
+}
+footer .box_footer .terms {
+  max-width: 350px;
+  margin-top: 20px;
+}
+footer .box_footer .logo img {
+  width: 200px;
+}
+footer .box_copyrights {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+footer .box_copyrights p {
+  margin-top: 20px;
+  color: #ffffff;
+}
+footer .box_copyrights hr {
+  color: #ffffff;
+}
+
+#trending-items {
+  background-image: url(../img/backgroundsection.jpg);
+  background-size: cover;
+}
+
+#cards {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  box-shadow: 1px;
+  box-sizing: border-box;
 }/*# sourceMappingURL=styles.css.map */
